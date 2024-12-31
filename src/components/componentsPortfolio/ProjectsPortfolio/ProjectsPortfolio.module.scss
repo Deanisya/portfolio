@@ -1,0 +1,90 @@
+.mainTitle {
+	font-weight: 400;
+	font-size: 65px;
+	line-height: 100%;
+	color: #fff;
+	text-align: center;
+	margin: 80px 0 80px;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 48px;
+	margin-bottom: 120px;
+
+	.imageBlock {
+		display: flex;
+		background: rgb(40, 40, 40);
+		border-radius: 12px;
+		width: 600px;
+		height: 500px;
+		align-items: center;
+		justify-content: center;
+		.image {
+			border-radius: 12px;
+			width: 486px;
+			height: 347px;
+		}
+	}
+	.descriptionBlock {
+		display: flex;
+		flex-direction: column;
+		// justify-content: space-between;
+		height: 100%;
+		.title {
+			font-weight: 500;
+			font-size: 32px;
+			line-height: 140%;
+			color: #fff;
+		}
+		.descr {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 150%;
+			color: #c7c7c7;
+			margin: 16px 0 32px;
+		}
+		.projectTitle {
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 150%;
+			text-transform: uppercase;
+			color: #fff;
+			border-bottom: 1px solid #484848;
+			padding: 16px 0px;
+		}
+		.technologies {
+			display: flex;
+			justify-content: space-between;
+			border-bottom: 1px solid #484848;
+			padding: 16px 0px;
+
+			p {
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 160%;
+				&:first-child {
+					color: #fff;
+				}
+				&:last-child {
+					color: #c7c7c7;
+				}
+			}
+		}
+		.linkProject {
+			background-color: transparent;
+			border-bottom: 2px solid #d3e97a;
+			width: 85px;
+			display: inline-block;
+			margin-top: auto;
+			.link {
+				font-weight: 700;
+				font-size: 16px;
+				line-height: 150%;
+				text-transform: uppercase;
+				color: #d3e97a;
+				text-decoration: none;
+			}
+		}
+	}
+}
