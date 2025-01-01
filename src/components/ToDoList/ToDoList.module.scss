@@ -1,0 +1,155 @@
+.container {
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(90deg, rgba(14, 2, 42, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	padding: 10px;
+
+	.toDoApp {
+		width: 100%;
+		max-width: 540px;
+		background: #fff;
+		margin: 150px auto 20px;
+		padding: 40px 30px 70px;
+		border-radius: 20px;
+		h2 {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 20px;
+			font-style: oblique;
+		}
+		.filterBtn {
+			outline: none;
+			border: none;
+			margin: 0 5px 10px;
+			padding: 5px 12px;
+			background: #2e1e44;
+			border-radius: 30px;
+			color: #fff;
+			cursor: pointer;
+			font-size: 12px;
+			user-select: none;
+			&:hover {
+				background: #c86400;
+			}
+		}
+		.filterBtnActive {
+			outline: none;
+			border: none;
+			margin: 0 5px 10px;
+			padding: 5px 12px;
+			background: #c86400;
+			border-radius: 30px;
+			color: #fff;
+			cursor: pointer;
+			font-size: 12px;
+			user-select: none;
+		}
+
+		.toDoInput {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background: #edeef0;
+			border-radius: 25px;
+			padding-left: 20px;
+			margin-bottom: 10px;
+
+			input {
+				outline: none;
+				border: none;
+				background: transparent;
+				padding: 10px;
+			}
+
+			button {
+				outline: none;
+				border: none;
+				padding: 16px 25px;
+				background: #2e1e44;
+				border-radius: 30px;
+				color: #fff;
+				cursor: pointer;
+				font-size: 14px;
+				user-select: none;
+			}
+		}
+		ul {
+			li {
+				position: relative;
+				list-style: none;
+				user-select: none;
+				cursor: pointer;
+				font-size: 17px;
+				padding: 12px 10px 0 50px;
+				display: flex;
+				justify-content: space-between;
+				&::before {
+					content: '';
+					position: absolute;
+					width: 25px;
+					height: 25px;
+					background-image: var(--circle-icon);
+					background-size: cover;
+					background-position: center;
+					top: 12px;
+					left: 8px;
+					border-radius: 50%;
+				}
+				&.checked {
+					color: #555;
+					text-decoration: line-through;
+
+					&::before {
+						background-image: var(--checked-icon);
+					}
+				}
+				.inputElem {
+					background: transparent;
+					padding: 0px 16px;
+					border-radius: 25px;
+				}
+				.saveBtn {
+					outline: none;
+					border: none;
+					margin: 0 5px 10px;
+					padding: 7px 12px;
+					background: darkgreen;
+					border-radius: 30px;
+					color: #fff;
+					cursor: pointer;
+					font-size: 14px;
+					user-select: none;
+					&:hover {
+						background: green;
+					}
+				}
+				.btnActions {
+					button {
+						outline: none;
+						border: none;
+						margin: 0 5px 10px;
+						padding: 5px 12px;
+						background: #21044a;
+						border-radius: 30px;
+						color: #fff;
+						cursor: pointer;
+						font-size: 12px;
+						user-select: none;
+					}
+					.deleteBtn:hover {
+						background: rgb(201, 19, 19);
+					}
+					.editBtn:hover {
+						background: rgb(218, 101, 4);
+					}
+				}
+			}
+		}
+	}
+}
+.error {
+	color: red;
+	padding: 5px;
+	font-weight: bold;
+}

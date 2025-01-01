@@ -1,6 +1,12 @@
 import React from 'react';
+import Grid from '../components/componentsPortfolio/Grid/Grid';
+
 function Projects() {
-	return <div>projects</div>;
+	return (
+		<section>
+			<Grid />
+		</section>
+	);
 }
 
 export default Projects;

@@ -15,7 +15,7 @@ export const initialState = {
 			projectTitle: 'Project Info',
 			yearTime: '2024',
 			technologies: 'Frontend',
-			link: '#',
+			link: '/project/toDoList',
 		},
 	],
 };
