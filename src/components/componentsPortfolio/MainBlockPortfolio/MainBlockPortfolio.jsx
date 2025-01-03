@@ -1,22 +1,21 @@
 import React from 'react';
 import style from './MainBlockPortfolio.module.scss';
-import img from '../../../image/main-photo.jpg';
+import SectionContainer from '../SectionContainer/SectionContainer';
 
 function MainBlockPortfolio() {
 	return (
-		<section className={style.sectionMain}>
-			<div className={style.mainLeft}>
-				<div className={style.mainTitle}>
-					<p>Hi, I am Ksenia</p>
-					<p>Frontend</p>
-					<p>Developer</p>
+		<div className={style.sectionMain}>
+			<SectionContainer>
+				<div className={style.main}>
+					<p>Hey, I’m</p>
+					<p>Ksenia Vinogradova</p>
+					<p>
+						I'm a frontend developer from Kazan. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. I have been freelancing for a year
+						now while studying at the university and I've manage to gain a decent amount of experience and valuable knowledge from all different kinds of fields throughout my projects/work.
+					</p>
 				</div>
-			</div>
-			<div className={style.mainRight}></div>
-			<div className={style.mainImage}>
-				<img className={style.image} src={img} alt='Main-Photo' />
-			</div>
-		</section>
+			</SectionContainer>
+		</div>
 	);
 }
 

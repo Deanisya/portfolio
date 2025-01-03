@@ -1,22 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './HeaderPortfolio.module.scss';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router';
-import logo from '../../../image/logo.png';
 
 function HeaderPortfolio() {
 	const { links } = useSelector(state => state.portfolioRed); // название state редьюсера
+	const [active, setActive] = useState('/');
+
+	const handleClick = linkPath => {
+		setActive(linkPath);
+	};
 
 	return (
 		<header>
-			<nav>
-				<img src={logo} alt='Logo' />
-
+			<nav className={style.nav}>
+				<p>KV</p>
 				<ul className={style.listMenu}>
 					{links.map(link => {
 						return (
-							<li>
-								<Link to={link.path} className={style.link}>
+							<li key={link.path}>
+								<Link to={link.path} className={`${style.link} ${active === link.path ? style.active : ''}`} onClick={() => handleClick(link.path)}>
 									{link.text}
 								</Link>
 							</li>

@@ -12,7 +12,7 @@ function ProjectsPortfolio() {
 			<div className={style.container}>
 				{projects.map(project => {
 					return (
-						<>
+						<div key={project.link} className={style.projectBlock}>
 							<div className={style.imageBlock}>
 								<img src={project.image} alt='Project' className={style.image} />
 							</div>
@@ -34,7 +34,7 @@ function ProjectsPortfolio() {
 									</a>
 								</div>
 							</div>
-						</>
+						</div>
 					);
 				})}
 			</div>
