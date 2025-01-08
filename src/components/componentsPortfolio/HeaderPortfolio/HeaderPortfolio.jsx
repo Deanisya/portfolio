@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router';
 
 function HeaderPortfolio() {
-	const { links } = useSelector(state => state.portfolioRed); // название state редьюсера
+	const { links } = useSelector(state => state.portfolioRed);
 	const [active, setActive] = useState('/');
 
 	const handleClick = linkPath => {

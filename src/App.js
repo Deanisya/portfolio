@@ -1,11 +1,11 @@
-import { Route, Routes } from 'react-router';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import HeaderPortfolio from '../src/components/componentsPortfolio/HeaderPortfolio/HeaderPortfolio';
+import HeaderPortfolio from './components/componentsPortfolio/HeaderPortfolio/HeaderPortfolio';
 import ToDoListRedux from './components/ToDoList/ToDoListRedux';
+import { Route, Routes } from 'react-router';
 
 function App() {
 	return (
@@ -23,5 +23,4 @@ function App() {
 		</>
 	);
 }
-
 export default App;

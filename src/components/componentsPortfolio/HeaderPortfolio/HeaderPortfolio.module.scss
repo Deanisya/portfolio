@@ -1,7 +1,7 @@
 .nav {
 	display: flex;
 	justify-content: space-between;
-	margin: 15px 0;
+	margin: 2vh 0;
 	P {
 		color: rgb(207, 207, 207);
 		text-transform: uppercase;
@@ -12,20 +12,20 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 60px;
+		gap: 40px;
 		margin-right: 10px;
+		@media (320px <= width < 992px) {
+			display: none;
+		}
 		li {
 			.link {
 				color: white;
-				text-decoration: none;
 				text-transform: uppercase;
 				&:hover {
-					color: #d3e97a;
+					color: #fbf2b1;
 				}
 				&.active {
-					color: #d3e97a;
-					padding: 10px;
-					border-bottom: 1px solid #d3e97a;
+					color: #fbf2b1;
 				}
 			}
 		}

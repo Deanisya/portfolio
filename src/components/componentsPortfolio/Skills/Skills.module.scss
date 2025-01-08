@@ -1,0 +1,60 @@
+.skillsBlock {
+	margin: 5rem 0 7rem;
+	@media (420px <= width < 1024px) {
+		margin: 2rem 0 4rem;
+	}
+	.skillsTextBlock {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin-bottom: 30px;
+		.skillsTitle {
+			font-size: 32px;
+			color: #fff;
+			text-transform: uppercase;
+		}
+		.skillsSubtitle {
+			font-size: 20px;
+			color: #fff;
+			margin: 15px 0;
+		}
+	}
+
+	.skillsContainer {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 20px;
+
+		.skillsCard {
+			display: flex;
+			width: fit-content;
+			width: 100%;
+			justify-content: flex-start;
+			gap: 10px;
+			align-items: center;
+			border: 2px solid #484848;
+			border-radius: 7px;
+			padding: 7px;
+			&:hover {
+				background-color: #282828;
+				cursor: pointer;
+				box-shadow: 0 0 10px #fff;
+				transition: box-shadow 0.3s ease;
+			}
+
+			.skillsIcon {
+				background-color: #484848;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 50px;
+				height: 50px;
+				border-radius: 7px;
+			}
+			.skillsTitleIcon {
+				color: #fff;
+			}
+		}
+	}
+}
