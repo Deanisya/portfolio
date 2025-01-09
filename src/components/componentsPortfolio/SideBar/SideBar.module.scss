@@ -1,0 +1,28 @@
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: -250px;
+	width: 250px;
+	height: 100%;
+	background-color: #111111e6;
+	transition: left 0.3s ease;
+	z-index: 1000;
+	&.open {
+		left: 0;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 15px;
+	}
+	li {
+		padding: 10px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+}

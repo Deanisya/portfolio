@@ -8,7 +8,7 @@ function LinkConnect() {
 		<div className={style.connect}>
 			<div className={style.connectBlock}>
 				{contacts.map((item, i) => (
-					<div className={style.linkConnect}>
+					<div key={i} className={style.linkConnect}>
 						<div key={i} className={style.linkConnectTitle}>
 							{item.svg}
 							<a className={style.link} href={item.href}>

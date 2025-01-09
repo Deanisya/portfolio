@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
 	margin-bottom: 20px;
-	@media (320px <= width < 428px) {
+	@media (320px <= width < 768px) {
 		grid-template-columns: 1fr;
 	}
 	.leftSide {
@@ -37,7 +37,7 @@
 		.logo {
 			margin-top: auto;
 			color: #fff;
-			@media (320px <= width < 689px) {
+			@media (320px <= width < 768px) {
 				display: none;
 			}
 		}
