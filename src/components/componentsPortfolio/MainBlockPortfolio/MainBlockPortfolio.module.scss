@@ -9,9 +9,7 @@
 		padding-top: 100px;
 		display: flex;
 		flex-direction: column;
-		@media (320px <= width < 992px) {
-			padding-top: 40px;
-		}
+
 		p {
 			color: rgb(253 253 253 / 80%);
 

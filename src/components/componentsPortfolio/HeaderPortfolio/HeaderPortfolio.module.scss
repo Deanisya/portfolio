@@ -1,44 +1,50 @@
-.nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 0 5vw;
-	height: 40px;
-	P {
-		color: rgb(207, 207, 207);
-		text-transform: uppercase;
-		font-weight: 800;
-	}
-	.listMenu {
+header {
+	background-color: rgb(27 26 26 / 95%);
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid rgb(255 255 255 / 36%);
+	.nav {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 40px;
-		@media (320px <= width < 992px) {
-			display: none;
+		margin: 0 5vw;
+		height: 40px;
+		P {
+			color: rgb(207, 207, 207);
+			text-transform: uppercase;
+			font-weight: 800;
 		}
-		li {
-			.link {
-				color: white;
-				text-transform: uppercase;
-				&:hover {
-					color: #fbf2b1;
-				}
-				&.active {
-					color: #fbf2b1;
+		.listMenu {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 40px;
+			@media (320px <= width < 992px) {
+				display: none;
+			}
+			li {
+				.link {
+					color: white;
+					text-transform: uppercase;
+					&:hover {
+						color: #fbf2b1;
+					}
+					&.active {
+						color: #fbf2b1;
+					}
 				}
 			}
 		}
-	}
-	.blurMenu {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-color: rgba(0, 0, 0, 0.5);
-		backdrop-filter: blur(5px);
-		z-index: 999;
-		transition: opacity 0.3s ease;
+		.blurMenu {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			backdrop-filter: blur(5px);
+			z-index: 999;
+			transition: opacity 0.3s ease;
+		}
 	}
 }

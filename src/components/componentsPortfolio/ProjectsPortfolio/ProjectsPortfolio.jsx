@@ -7,7 +7,7 @@ function ProjectsPortfolio() {
 	const { projects } = useSelector(state => state.portfolioRed);
 
 	return (
-		<section className={style.projectsSection}>
+		<section id='projects' className={style.projectsSection}>
 			<h2 className={style.mainTitle}>PROJECTS</h2>
 			<div className={style.container}>
 				{projects.map(project => {

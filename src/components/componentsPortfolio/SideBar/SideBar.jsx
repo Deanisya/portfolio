@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './SideBar.module.scss';
-import { Link } from 'react-router';
+import { HashLink as Link } from 'react-router-hash-link';
 import { useSelector } from 'react-redux';
 
 function SideBar({ handleClick, active, activeBurger }) {

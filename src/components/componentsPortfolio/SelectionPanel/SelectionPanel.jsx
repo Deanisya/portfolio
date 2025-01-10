@@ -9,7 +9,7 @@ function SelectionPanel() {
 					<Link to='/project/toDoList'>projects 1</Link>
 				</li>
 				<li>
-					<Link to='/project/shop'>projects 2</Link>
+					<Link to='/project/animatedSocialLink'>projects 2</Link>
 				</li>
 			</ul>
 		</div>

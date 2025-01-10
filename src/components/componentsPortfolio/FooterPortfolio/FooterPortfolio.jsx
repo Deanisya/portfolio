@@ -3,7 +3,7 @@ import style from './FooterPortfolio.module.scss';
 
 function FooterPortfolio() {
 	return (
-		<div className={style.gridContainer}>
+		<div id='contact' className={style.gridContainer}>
 			<div className={style.leftSide}>
 				<p className={style.footerTitle}>Contact Me</p>
 				<div className={style.footerContacts}>

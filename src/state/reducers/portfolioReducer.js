@@ -2,9 +2,10 @@ import imageProjectOne from '../../image/work.png';
 export const initialState = {
 	links: [
 		{ path: '/', text: 'Home' },
-		{ path: '/about', text: 'About' },
+		{ path: '/about', text: 'About me' },
+		{ path: '/#projects', text: 'Projects' },
 		{ path: '/project', text: 'Simple Projects' },
-		{ path: '/contacts', text: 'Contacts' },
+		{ path: '/#contact', text: 'Contacts' },
 	],
 	projects: [
 		{

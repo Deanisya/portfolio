@@ -19,6 +19,16 @@
 		padding: 10px;
 		text-transform: uppercase;
 		margin-bottom: 10px;
+		.link {
+			color: white;
+			text-transform: uppercase;
+			&:hover {
+				color: #fbf2b1;
+			}
+			&.active {
+				color: #fbf2b1;
+			}
+		}
 	}
 
 	a {

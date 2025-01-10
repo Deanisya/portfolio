@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './HeaderPortfolio.module.scss';
 import { useSelector } from 'react-redux';
-import { Link } from 'react-router';
+import { HashLink as Link } from 'react-router-hash-link';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import SideBar from '../SideBar/SideBar';
 
