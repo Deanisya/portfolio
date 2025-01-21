@@ -11,6 +11,9 @@ function SelectionPanel() {
 				<li>
 					<Link to='/project/animatedSocialLink'>projects 2</Link>
 				</li>
+				<li>
+					<Link to='/project/slider'>projects 3</Link>
+				</li>
 			</ul>
 		</div>
 	);

@@ -8,6 +8,7 @@ import ToDoListRedux from './components/ToDoList/ToDoListRedux';
 import { Route, Routes } from 'react-router';
 import FooterPortfolio from './components/componentsPortfolio/FooterPortfolio/FooterPortfolio';
 import AnimatedSocialLink from './components/AnimatedSocialLink/AnimatedSocialLink';
+import Slider from './components/Slider/Slider';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 				<Route path='/project/*' element={<Projects />}>
 					<Route path='toDoList' element={<ToDoListRedux title='To Do List' />} />
 					<Route path='animatedSocialLink' element={<AnimatedSocialLink />} />
+					<Route path='slider' element={<Slider />} />
 				</Route>
 				<Route path='/' element={<FooterPortfolio />} />
 			</Routes>
