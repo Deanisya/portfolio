@@ -14,6 +14,12 @@ function SelectionPanel() {
 				<li>
 					<Link to='/project/slider'>projects 3</Link>
 				</li>
+				<li>
+					<Link to='/project/draggedList'>projects 4</Link>
+				</li>
+				<li>
+					<Link to='/project/draggedListBlocks'>projects 4</Link>
+				</li>
 			</ul>
 		</div>
 	);

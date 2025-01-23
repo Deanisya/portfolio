@@ -1,0 +1,28 @@
+.dragDropList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	h2 {
+		font-size: 18px;
+		color: #fff;
+		margin-bottom: 1rem;
+	}
+	.dragList {
+		list-style-type: none;
+		padding: 0;
+		border: 2px dashed #fff;
+		padding: 1rem 2rem;
+		li {
+			padding: 12px 24px;
+			margin: 4px 0;
+			background-color: #f0f0f0;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			cursor: move;
+			transition: background-color 0.3s;
+			cursor: move;
+			border-radius: 4px;
+		}
+	}
+}

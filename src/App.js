@@ -9,6 +9,8 @@ import { Route, Routes } from 'react-router';
 import FooterPortfolio from './components/componentsPortfolio/FooterPortfolio/FooterPortfolio';
 import AnimatedSocialLink from './components/AnimatedSocialLink/AnimatedSocialLink';
 import Slider from './components/Slider/Slider';
+import DragDropList from './components/DragDropList/DragDropList';
+import DragDropBlocks from './components/DragDropBlocks/DragDropBlocks';
 
 function App() {
 	return (
@@ -21,6 +23,8 @@ function App() {
 					<Route path='toDoList' element={<ToDoListRedux title='To Do List' />} />
 					<Route path='animatedSocialLink' element={<AnimatedSocialLink />} />
 					<Route path='slider' element={<Slider />} />
+					<Route path='draggedList' element={<DragDropList />} />
+					<Route path='draggedListBlocks' element={<DragDropBlocks />} />
 				</Route>
 				<Route path='/' element={<FooterPortfolio />} />
 			</Routes>
