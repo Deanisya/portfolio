@@ -27,26 +27,29 @@ function DragDropBlocks() {
 	};
 
 	return (
-		<div className={styles.listsDrop}>
-			<div className={styles.left} onDrop={() => handleDrop('One')} onDragOver={e => e.preventDefault()}>
-				<ul className={styles.list}>
-					{listOne.map((item, index) => (
-						<li className={styles.item} key={index} draggable onDragStart={() => handleDragStart(item, 'One')} onDrop={() => handleDrop('One')} onDragOver={e => e.preventDefault()}>
-							{item}
-						</li>
-					))}
-					{listOne.length === 0 && <li className={styles.emptyZone}>Перетащите сюда элементы</li>}
-				</ul>
-			</div>
-			<div className={styles.right} onDrop={() => handleDrop('Two')} onDragOver={e => e.preventDefault()}>
-				<ul className={styles.list}>
-					{listTwo.map((item, index) => (
-						<li className={styles.item} key={index} draggable onDragStart={() => handleDragStart(item, 'Two')} onDrop={() => handleDrop('Two')} onDragOver={e => e.preventDefault()}>
-							{item}
-						</li>
-					))}
-					{listTwo.length === 0 && <li className={styles.emptyZone}>Перетащите сюда элементы</li>}
-				</ul>
+		<div className={styles.listsDropContainer}>
+			<h2 className={styles.listDropTitle}>Реализация функциональности перетаскивания (drag-and-drop) между 2 колонками.</h2>
+			<div className={styles.listsDrop}>
+				<div className={styles.left} onDrop={() => handleDrop('One')} onDragOver={e => e.preventDefault()}>
+					<ul className={styles.list}>
+						{listOne.map((item, index) => (
+							<li className={styles.item} key={index} draggable onDragStart={() => handleDragStart(item, 'One')} onDrop={() => handleDrop('One')} onDragOver={e => e.preventDefault()}>
+								{item}
+							</li>
+						))}
+						{listOne.length === 0 && <li className={styles.emptyZone}>Перетащите сюда элементы</li>}
+					</ul>
+				</div>
+				<div className={styles.right} onDrop={() => handleDrop('Two')} onDragOver={e => e.preventDefault()}>
+					<ul className={styles.list}>
+						{listTwo.map((item, index) => (
+							<li className={styles.item} key={index} draggable onDragStart={() => handleDragStart(item, 'Two')} onDrop={() => handleDrop('Two')} onDragOver={e => e.preventDefault()}>
+								{item}
+							</li>
+						))}
+						{listTwo.length === 0 && <li className={styles.emptyZone}>Перетащите сюда элементы</li>}
+					</ul>
+				</div>
 			</div>
 		</div>
 	);

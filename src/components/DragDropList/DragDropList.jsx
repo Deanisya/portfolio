@@ -21,7 +21,7 @@ function DragDropList() {
 
 	return (
 		<div className={styles.dragDropList}>
-			<h2> Реализации функциональности перетаскивания (drag-and-drop)</h2>
+			<h2> Реализация функциональности перетаскивания (drag-and-drop)</h2>
 			<ul className={styles.dragList} onDragOver={e => e.preventDefault()}>
 				{list.map((item, index) => (
 					<li

@@ -11,6 +11,7 @@ import AnimatedSocialLink from './components/AnimatedSocialLink/AnimatedSocialLi
 import Slider from './components/Slider/Slider';
 import DragDropList from './components/DragDropList/DragDropList';
 import DragDropBlocks from './components/DragDropBlocks/DragDropBlocks';
+import DragDropBlocksOnRedux from './components/DragDropBlocksOnRedux/DragDropBlocksOnRedux';
 
 function App() {
 	return (
@@ -25,6 +26,7 @@ function App() {
 					<Route path='slider' element={<Slider />} />
 					<Route path='draggedList' element={<DragDropList />} />
 					<Route path='draggedListBlocks' element={<DragDropBlocks />} />
+					<Route path='draggedListThreeBlocks' element={<DragDropBlocksOnRedux />} />
 				</Route>
 				<Route path='/' element={<FooterPortfolio />} />
 			</Routes>
