@@ -4,11 +4,13 @@ import ProjectsPortfolio from '../components/componentsPortfolio/ProjectsPortfol
 import SectionContainer from '../components/componentsPortfolio/SectionContainer/SectionContainer';
 import Skills from '../components/componentsPortfolio/Skills/Skills';
 import FooterPortfolio from '../components/componentsPortfolio/FooterPortfolio/FooterPortfolio';
+import BackgroundImg from '../components/componentsPortfolio/BackgroundImg/BackgroundImg';
 
 function Home() {
 	return (
 		<section>
 			<MainBlockPortfolio />
+			<BackgroundImg />
 			<SectionContainer>
 				<ProjectsPortfolio />
 				<Skills />

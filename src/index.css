@@ -6,8 +6,8 @@
 	text-decoration: none;
 }
 body {
-	background-color: rgb(28, 28, 28);
-	/* font-family: 'Inter', sans-serif; */
+	background-color: rgb(18, 18, 18);
+	font-family: 'Inter', sans-serif;
 }
 /* index.css или любой другой файл глобальных стилей */
 html {
