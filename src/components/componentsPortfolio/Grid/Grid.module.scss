@@ -3,16 +3,21 @@
 	grid-template-columns: 20% auto;
 	height: 100vh;
 	gap: 15px;
-	padding-top: 40px;
-}
+	padding-top: 60px;
+	.leftPanel {
+		background-color: rgb(31 31 31);
+		padding: 20px;
+	}
+	.rightPanel {
+		background-color: rgb(31 31 31);
+		display: flex;
+		justify-content: center;
 
-.leftPanel {
-	background-color: rgb(40, 40, 40);
-	padding: 20px;
-}
-
-.rightPanel {
-	background-color: rgb(40, 40, 40);
-	display: flex;
-	justify-content: center;
+		p {
+			margin: auto 3rem;
+			color: white;
+			font-size: 45px;
+			text-align: center;
+		}
+	}
 }

@@ -16,12 +16,7 @@
 			align-items: center;
 			justify-content: center;
 			text-align: center;
-			&:first-child {
-				background: linear-gradient(84deg, #fbf2b1 54.95%, #f4426c 100%);
-			}
-			&:nth-child(2) {
-				background: linear-gradient(84deg, #9259f7 54.95%, #10d7e2 100%);
-			}
+			border: 2px solid #111111;
 			.linkConnectTitle {
 				display: flex;
 				background: #111111;
@@ -31,6 +26,9 @@
 				align-items: center;
 				justify-content: center;
 				gap: 10px;
+				&:hover {
+					background-color: #212121;
+				}
 				.link {
 					font-weight: 300;
 					font-size: 16px;

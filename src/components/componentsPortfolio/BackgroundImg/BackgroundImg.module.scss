@@ -1,0 +1,15 @@
+.background {
+	height: 500px;
+	background-image: url(../../../image/mainPhoto.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	background-attachment: fixed;
+
+	@media (768px <= width < 1200px) {
+		height: 300px;
+	}
+	@media (320px <= width < 768px) {
+		height: 200px;
+	}
+}

@@ -12,6 +12,7 @@ function Grid() {
 				<SelectionPanel />
 			</div>
 			<div className={style.rightPanel}>
+				<p>These small projects are educational, they helped me learn new technologies and master the initial development skills</p>
 				<Outlet />
 			</div>
 		</div>
