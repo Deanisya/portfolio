@@ -24,7 +24,7 @@ function AnimatedText({ text, delay = 0 }) {
 	}, [delay]);
 
 	return (
-		<p ref={textRef} style={{ position: 'relative' }}>
+		<p ref={textRef}>
 			{text.split('').map((char, index) => (
 				<span key={index} style={{ display: 'inline-block' }}>
 					{char === ' ' ? '\u00A0' : char}

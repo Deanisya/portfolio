@@ -9,7 +9,6 @@ body {
 	background-color: rgb(18, 18, 18);
 	font-family: 'Inter', sans-serif;
 }
-/* index.css или любой другой файл глобальных стилей */
 html {
 	scroll-behavior: smooth;
 }

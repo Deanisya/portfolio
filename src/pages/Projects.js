@@ -1,10 +1,10 @@
 import React from 'react';
-import Grid from '../components/componentsPortfolio/Grid/Grid';
+import SimpleProjects from '../components/componentsPortfolio/SimpleProjects/SimpleProjects';
 
 function Projects() {
 	return (
 		<section>
-			<Grid />
+			<SimpleProjects />
 		</section>
 	);
 }

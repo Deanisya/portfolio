@@ -1,0 +1,37 @@
+.projectsListLinks {
+	@media (320px <= width < 992px) {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.link a {
+		color: #fff;
+		display: block;
+		width: 100%;
+		border: 1px solid #939393;
+		border-radius: 4px;
+		padding: 10px 20px;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 600;
+		background: {
+			image: linear-gradient(45deg, #fff 50%, transparent 50%);
+			position: 100%;
+			size: 400%;
+		}
+		transition: all 0.5s ease-in-out;
+
+		&:hover {
+			background-position: 0;
+			color: black;
+		}
+
+		// @media (320px <= width < 992px) {
+		// 	width: 30%;
+		// }
+	}
+}

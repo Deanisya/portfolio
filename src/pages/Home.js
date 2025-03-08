@@ -11,8 +11,8 @@ function Home() {
 		<section>
 			<MainBlockPortfolio />
 			<BackgroundImg />
+			<ProjectsPortfolio />
 			<SectionContainer>
-				<ProjectsPortfolio />
 				<Skills />
 				<FooterPortfolio />
 			</SectionContainer>
