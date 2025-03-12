@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 👩‍💻 Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Portfolio** - этот проект представляет собой персональное портфолио, созданное для демонстрации навыков, проектов и опыта. Портфолио включает в себя информацию обо мне, примеры выполненных работ, контактные данные и возможность связаться со мной через форму обратной связи.
 
-## Available Scripts
+## 📌 **Основные функции**
 
-In the project directory, you can run:
+- Home:
 
-### `npm start`
+  - На этой странице вы сможете найти мои главные проекты с описанием и ссылками на GitHub.
+  - Форма обратной связи для отправки сообщений.
+  - Ссылки на социальные сети и другие платформы.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- About me:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - Раздел с информацией о моих навыках, образовании и опыте работы.
 
-### `npm test`
+- Simple projects:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - Эти небольшие проекты носят образовательный характер, они помогли мне изучить новые технологии и освоить начальные навыки разработки.
 
-### `npm run build`
+- Адаптивный дизайн:
+  - Портфолио полностью адаптировано для просмотра на различных устройствах (десктоп, планшет, мобильные устройства).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ **Инструменты, которые использовались в разработке проекта**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Redux Toolkit** для управления состоянием
+- **React Router** для маршрутизации
+- **createAsyncThunk** для работы с API
+- использовались **createSlice** при создание **reducers**, вместо **'switch case'**. Это упростило синтаксис и разработку в целом.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| **Category**        | **Technologies**                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Frontend**        | [![React](https://img.shields.io/static/v1?label=&message=React&color=61DAFB&logo=react&logoColor=FFFFFF)](https://react.dev/) [![Redux](https://img.shields.io/badge/redux-%23764ABC?logo=redux)](https://redux.js.org/)                                                                                                                                                      |
+| **Styling**         | [![SASS](https://img.shields.io/static/v1?label=&message=SASS&color=CC6699&logo=sass&logoColor=FFFFFF)](https://sass-lang.com/) [![MUI](https://img.shields.io/badge/Material%20UI-%23007FFF?logo=MUI&logoColor=white)](https://mui.com/) [![GSAP](https://img.shields.io/static/v1?label=&message=GSAP&color=88CE02&logo=greensock&logoColor=FFFFFF)](https://greensock.com/) |
+| **Version Control** | [![Git](https://img.shields.io/static/v1?label=&message=Git&color=F05032&logo=git&logoColor=FFFFFF)](https://git-scm.com/) [![GitHub](https://img.shields.io/static/v1?label=&message=GitHub&color=181717&logo=github&logoColor=FFFFFF)](https://github.com/)                                                                                                                  |
+| **AI & Tools**      | [![ChatGPT](https://img.shields.io/static/v1?label=&message=ChatGPT&color=00A67E&logo=openai&logoColor=FFFFFF)](https://openai.com/) [![Figma](https://img.shields.io/static/v1?label=&message=Figma&color=F24E1E&logo=figma&logoColor=FFFFFF)](https://www.figma.com/)                                                                                                        |
+| **Misc**            | [![Markdown](https://img.shields.io/static/v1?label=&message=Markdown&color=000000&logo=markdown&logoColor=FFFFFF)](https://www.markdownguide.org/)                                                                                                                                                                                                                            |
+| **Editors**         | [![VS Code](https://img.shields.io/static/v1?label=&message=VS%20Code&color=9013FE&logo=visualstudiocode&logoColor=FFFFFF)](https://code.visualstudio.com/)                                                                                                                                                                                                                    |
 
-### `npm run eject`
+## 📂 Установка и запуск
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Клонируй репозиторий
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/Deanisya/portfolio.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Перейди в папку с проектом
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd portfolio
+```
 
-## Learn More
+3. Подгрузи зависимости
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Запусти проект
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+```

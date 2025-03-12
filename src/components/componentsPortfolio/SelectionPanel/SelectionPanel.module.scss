@@ -23,15 +23,11 @@
 			position: 100%;
 			size: 400%;
 		}
-		transition: all 0.5s ease-in-out;
+		transition: all 1s ease-in-out;
 
 		&:hover {
 			background-position: 0;
 			color: black;
 		}
-
-		// @media (320px <= width < 992px) {
-		// 	width: 30%;
-		// }
 	}
 }
