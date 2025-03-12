@@ -17,7 +17,7 @@ function App() {
 		<>
 			<HeaderPortfolio />
 			<Routes>
-				<Route path='/' element={<Home />} />
+				<Route path='/portfolio' element={<Home />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/project/*' element={<Projects />}>
 					<Route path='toDoList' element={<ToDoListRedux title='To Do List' />} />
