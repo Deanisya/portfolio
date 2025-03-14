@@ -14,7 +14,7 @@ function FooterPortfolio() {
 							fill='#fff'
 						/>
 					</svg>
-					<p className={style.footerContactsText}>Vinogradova19.99@mail.ru</p>
+					<p className={style.footerContactsText}>ks.vinogradova19.99@mail.ru</p>
 				</div>
 				<div className={style.footerContacts}>
 					<svg className='w-6 h-6 text-gray-800 dark:text-white' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' viewBox='0 0 24 24'>
@@ -54,13 +54,13 @@ function FooterPortfolio() {
 			</div>
 
 			<div className={style.rightSide}>
-				<form action='your-action-url-here' method='POST'>
-					<input type='text' placeholder='Name' />
+				<form action='https://getform.io/f/anlqkrga' method='POST'>
+					<input type='text' placeholder='Name' required id='name' name='name' autoComplete='name' />
 					<br></br>
 					<input type='email' id='email' name='email' placeholder='Email' required />
 					<br></br>
-					<textarea name='' id='' placeholder='Your message'></textarea>
-					<button>Send</button>
+					<textarea name='message' id='message' placeholder='Your message' required></textarea>
+					<button type='submit'>Send</button>
 				</form>
 			</div>
 		</div>
