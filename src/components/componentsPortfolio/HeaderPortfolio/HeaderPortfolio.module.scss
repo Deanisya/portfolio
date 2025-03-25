@@ -10,10 +10,14 @@ header {
 		align-items: center;
 		margin: 0 5vw;
 		height: 60px;
-		P {
+		.logo {
 			color: rgb(207, 207, 207);
 			text-transform: uppercase;
 			font-weight: 800;
+			cursor: pointer;
+			&:hover {
+				color: #fff;
+			}
 		}
 		.listMenu {
 			display: flex;

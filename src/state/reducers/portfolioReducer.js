@@ -6,9 +6,9 @@ export const initialState = {
 	links: [
 		{ path: '/portfolio', text: 'Home' },
 		{ path: '/about', text: 'About me' },
-		{ path: '/#projects', text: 'Projects' },
+		{ path: '/portfolio/#projects', text: 'Projects' },
 		{ path: '/project', text: 'Simple Projects' },
-		{ path: '/#contact', text: 'Contacts' },
+		{ path: '/portfolio/#contact', text: 'Contacts' },
 	],
 	projects: [
 		{

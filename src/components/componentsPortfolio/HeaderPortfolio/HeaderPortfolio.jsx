@@ -18,11 +18,16 @@ function HeaderPortfolio() {
 	const toggleMenu = () => {
 		setActiveBurger(!activeBurger);
 	};
+	const handleClickUp = () => {
+		window.scrollTo(0, 0);
+	};
 
 	return (
 		<header>
 			<nav className={styles.nav}>
-				<p>KV</p>
+				<p className={styles.logo} onClick={handleClickUp}>
+					KV
+				</p>
 				<BurgerMenu activeBurger={activeBurger} toggleMenu={toggleMenu} aria-label='Toggle menu' />
 				<SideBar active={location.pathname} activeBurger={activeBurger} handleClick={toggleMenu} />
 				<ul className={styles.listMenu}>
