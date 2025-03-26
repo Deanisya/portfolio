@@ -1,6 +1,7 @@
-import portfolio from '../../image/port.mp4';
+import portfolio from '../../image/portfolio.mp4';
 import shoppeBook from '../../image/shoppebook.mp4';
 import comics from '../../image/comics.mp4';
+import avion from '../../image/avion.mp4';
 
 export const initialState = {
 	links: [
@@ -36,6 +37,15 @@ export const initialState = {
 			descr: 'This landing page allows users to easily add and remove comics to their shopping cart, log into their personal account, as well as the ability to add a new comic to the assortment.',
 			yearTime: '2024',
 			technologies: 'React, Redux, ect.',
+			link: 'https://github.com/Deanisya/comics',
+		},
+		{
+			video: avion,
+			title: 'Avion – это современный и стильный одностраничный лендинг для мебельной компании.',
+			descr:
+				'Сайт разработан для представления ассортимента мебели, рассказа о бренде и привлечения клиентов. Проект сочетает в себе элегантный дизайн, удобство навигации и адаптивность для комфортного просмотра на любых устройствах.',
+			yearTime: '2024',
+			technologies: 'HTML, CSS, JavaScript ect.',
 			link: 'https://github.com/Deanisya/comics',
 		},
 	],
