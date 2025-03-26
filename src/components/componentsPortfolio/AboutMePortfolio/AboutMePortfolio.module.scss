@@ -1,0 +1,47 @@
+.grid {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	height: 100%;
+	padding: 60px 20px 0;
+	place-items: center stretch;
+	min-height: 100vh;
+	@media (320px <= width < 959px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.imgBlock {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.img {
+			max-width: 400px;
+			max-height: 400px;
+			object-fit: cover;
+			clip-path: circle(50% at 50% 50%);
+			@media (959px <= width < 1024px) {
+				max-width: 300px;
+				max-height: 300px;
+			}
+			@media (320px <= width < 420px) {
+				max-width: 300px;
+				max-height: 300px;
+			}
+		}
+	}
+
+	.infoAboutMe {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding: 10px;
+		.title {
+			font-size: 20px;
+			color: #fff;
+		}
+		.descr {
+			color: #fff;
+		}
+	}
+}

@@ -1,4 +1,4 @@
-import imageProjectOne from '../../image/work.png';
+import portfolio from '../../image/port.mp4';
 import shoppeBook from '../../image/shoppebook.mp4';
 import comics from '../../image/comics.mp4';
 
@@ -22,7 +22,7 @@ export const initialState = {
 		},
 
 		{
-			video: imageProjectOne,
+			video: portfolio,
 			title: 'Personal portfolio',
 			descr:
 				'My Portfolio is an interactive portfolio where users can view examples of my projects, skills, and contact information. This app helps potential employers and clients familiarize themselves with my work and style.A detailed description can be found at the link below...',
@@ -169,16 +169,8 @@ export const initialState = {
 		},
 		{
 			svg: (
-				<svg fill='#00bcff' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-					<g id='SVGRepo_bgCarrier' stroke-width='0'></g>
-					<g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g>
-					<g id='SVGRepo_iconCarrier'>
-						<path
-							fill-rule='evenodd'
-							clip-rule='evenodd'
-							d='M12 6.036c-2.667 0-4.333 1.325-5 3.976 1-1.325 2.167-1.822 3.5-1.491.761.189 1.305.738 1.906 1.345C13.387 10.855 14.522 12 17 12c2.667 0 4.333-1.325 5-3.976-1 1.325-2.166 1.822-3.5 1.491-.761-.189-1.305-.738-1.907-1.345-.98-.99-2.114-2.134-4.593-2.134zM7 12c-2.667 0-4.333 1.325-5 3.976 1-1.326 2.167-1.822 3.5-1.491.761.189 1.305.738 1.907 1.345.98.989 2.115 2.134 4.594 2.134 2.667 0 4.333-1.325 5-3.976-1 1.325-2.167 1.822-3.5 1.491-.761-.189-1.305-.738-1.906-1.345C10.613 13.145 9.478 12 7 12z'
-						></path>
-					</g>
+				<svg class='w-6 h-6 text-gray-800 dark:text-white' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='#00bcff' viewBox='0 0 24 24'>
+					<path d='M11.782 5.72a4.773 4.773 0 0 0-4.8 4.173 3.43 3.43 0 0 1 2.741-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.934-2.865 3.137-3.921-.969 1.379-2.44 2.207-4.259 1.231-1.253-.673-2.19-3.438-5.959-3.318ZM6.8 11.979A4.772 4.772 0 0 0 2 16.151a3.431 3.431 0 0 1 2.745-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.933-2.865 3.137-3.921-.97 1.379-2.44 2.208-4.259 1.231-1.253-.673-2.19-3.443-5.963-3.317Z' />
 				</svg>
 			),
 			title: 'Tailwind',

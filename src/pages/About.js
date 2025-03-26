@@ -1,6 +1,7 @@
 import React from 'react';
+import AboutMePortfolio from '../components/componentsPortfolio/AboutMePortfolio/AboutMePortfolio';
 function About() {
-	return <div>about me</div>;
+	return <AboutMePortfolio />;
 }
 
 export default About;

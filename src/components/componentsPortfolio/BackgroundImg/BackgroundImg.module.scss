@@ -1,7 +1,9 @@
 .background {
 	height: 500px;
 	background-image: url(../../../image/mainPhoto.jpg);
-	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-position: center;
 	width: 100%;
 	background-attachment: fixed;
