@@ -46,7 +46,7 @@ export const initialState = {
 				'Сайт разработан для представления ассортимента мебели, рассказа о бренде и привлечения клиентов. Проект сочетает в себе элегантный дизайн, удобство навигации и адаптивность для комфортного просмотра на любых устройствах.',
 			yearTime: '2024',
 			technologies: 'HTML, CSS, JavaScript ect.',
-			link: 'https://github.com/Deanisya/comics',
+			link: 'https://github.com/Deanisya/Furniture',
 		},
 	],
 	contacts: [
